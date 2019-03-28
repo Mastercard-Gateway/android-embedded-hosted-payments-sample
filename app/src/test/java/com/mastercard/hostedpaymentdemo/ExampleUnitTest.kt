@@ -1,4 +1,4 @@
-package com.mastercard.hostcheckoutdemo
+package com.mastercard.hostedpaymentdemo
 
 import org.junit.Test
 

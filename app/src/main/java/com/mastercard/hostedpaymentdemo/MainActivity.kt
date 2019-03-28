@@ -1,4 +1,4 @@
-package com.mastercard.hostcheckoutdemo
+package com.mastercard.hostedpaymentdemo
 
 import android.net.Uri
 import android.os.AsyncTask
@@ -11,18 +11,15 @@ import android.webkit.WebViewClient
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
-import java.io.BufferedReader
-import java.io.InputStreamReader
 
 
 class MainActivity : AppCompatActivity() {
 
     companion object {
         const val REDIRECT_SCHEME = "simplify"
-        const val ENDPOINT_URL = "https://test-php-hosted-payment.herokuapp.com"
+        const val ENDPOINT_URL = "YOUR_SERVER_HERE"
         const val AMOUNT = 1000L
         const val CURRENCY_CODE = "AUD"
     }

@@ -1,4 +1,4 @@
-package com.mastercard.hostcheckoutdemo
+package com.mastercard.hostedpaymentdemo
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
