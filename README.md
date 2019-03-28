@@ -1,9 +1,12 @@
 
-This project is an example of how to show Simplify's Hosted Payment in a page to collect a Card Token then performa redirect that can be consumed by a WebView in an Android App. Hosted Payment will perform 3DS 1.0 Authentication if enabled for the cardholder. The Card Token can then be used to complete a Payment using any of Simplify's server-side SDKs.The example PHP is hostedPayment.php when Hosted Payment returns a card token to the page the WebView is redirected to
+his is a sample Android app project showing how to tokenize the card using [Simplify's Hosted Payment](https://simplify.com/commerce/docs/tools/hosted-payments) feature in a WebView.
+Hosted Payment page supports varieties of features including card number & expiry validation, and authentication flows such as 3DS v1.
 
-    simplify://cardToken?=<Card Token>
+After the card is tokenized, the token can be used to complete the payment using any of the SDKs offered by Simplify Platform - https://simplify.com/commerce/docs/sdk/index
 
-The embed WebView listens for the redirect for the simplify:// scheme and can the parse the URL for the card token.
+For the sake of convenience, we have provided an example file hostedPayment.php in this repo. This file needs to be hosted on your server. Please make sure you to update the correct API Key in that file.
+
+The embedded WebView listens for the redirect for ` simplify://cardToken?=`` scheme and parses the URL for the card token.
 
 
 **License**
