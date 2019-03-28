@@ -9,7 +9,7 @@ For the sake of convenience, we have provided an example file [hostedPayment.php
 The embedded WebView listens for the redirect for `simplify://cardToken?=` scheme and parses the URL for the card token.
 
 
-<div style="text-align:center">![](./assets/hosted-payment-demo.gif)</div>
+![](/assets/hosted-payment-demo.gif)
 
 **License**
 
