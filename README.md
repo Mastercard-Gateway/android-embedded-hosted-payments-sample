@@ -6,7 +6,7 @@ After the card is tokenized, the token can be used to complete the payment using
 
 For the sake of convenience, we have provided an example file hostedPayment.php in this repo. This file needs to be hosted on your server. Please make sure you to update the correct API Key in that file.
 
-The embedded WebView listens for the redirect for ` simplify://cardToken?=`` scheme and parses the URL for the card token.
+The embedded WebView listens for the redirect for `simplify://cardToken?=` scheme and parses the URL for the card token.
 
 
 **License**
